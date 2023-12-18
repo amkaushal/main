@@ -2,10 +2,9 @@ const mongoose = require('mongoose');
 
 // Replace the <username>, <password>, and <dbname> with your MongoDB Atlas credentials
 const username = 'amkaushal';
-const password = 'YjsV5IGwaIIil4xv';
 const dbname = 'Cluster0';
 
-const uri = `mongodb+srv://amkaushal:YjsV5IGwaIIil4xv@cluster0.kgfmoyf.mongodb.net/`;
+const uri = `mongodb+srv://amkaushal:<password>@cluster0.kgfmoyf.mongodb.net/`;
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
